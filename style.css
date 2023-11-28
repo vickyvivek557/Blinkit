@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.vertical_line{
+    height: 80px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+.nav-search{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f8f9f9;
+    padding-left: 15px;
+    border: 1px solid #eeeeee;
+}
+.nav-search>input{
+    border: none;
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    margin-left: 5px;
+}
+.my-cart{
+    background-color: rgba(12, 131, 31, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.my-cart>i{
+    margin-right: 5px;
+}
+.hero-section>div{
+    display: flex;
+    justify-content: center;
+}
