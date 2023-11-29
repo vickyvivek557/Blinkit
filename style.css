@@ -40,3 +40,24 @@ nav{
     display: flex;
     justify-content: center;
 }
+#categories-section{
+    width: 95vw;
+    margin: auto;
+}
+footer>div{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-r-3{`
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+    margin: auto;
+}
