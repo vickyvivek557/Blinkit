@@ -136,9 +136,10 @@ footer>div{
         display: none;
     }
     #search_div{
-        width: 90%;
+        width: 80%;
     }
     #search_div>input{
-        width: auto;
+        width: 80;
     }
+    
 }
