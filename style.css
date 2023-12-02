@@ -40,6 +40,17 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+.card-section{
+    width: 90vw;
+    margin: auto;
+}
+.scrollable-div{
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+
 #categories-section{
     width: 95vw;
     margin: auto;
