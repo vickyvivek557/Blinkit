@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -14,7 +15,7 @@ nav{
 }
 .nav-search{
     width: 40%;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     background-color: #f8f9f9;
     padding-left: 15px;
@@ -32,13 +33,17 @@ nav{
     color: white;
     border: none;
     border-radius: 10px;
+
 }
 .my-cart>i{
     margin-right: 5px;
 }
-.hero-section>div{
+.hero-section>div>img{
+    width: 92vw;
+    margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .card-section{
@@ -50,25 +55,75 @@ nav{
     overflow: scroll;
 }
 
-
-#categories-section{
-    width: 95vw;
+.categories-section-1{
+    width: 94vw;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
-footer>div{
+.categories-section-2{
     width: 90vw;
     margin: auto;
+    margin-top: 30px;
+}
+.section-heading{
+    font-size: 40;
+    font-weight: bold;
+}
+
+.my-card{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #e8e9e9;
+    border-radius: 5px;
+    display: inline-block;
+}
+.my-card>img{
+    width: 100%;
+}
+
+.product-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.product-weight{
+    margin-top: 0px;
+    color: #666666;
+    font-size: 14px;
+}
+.price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+}
+.add-btn{
+    cursor: pointer;
+    width: 66px;
+    border: 1px solid rgb(49, 134, 22);
+    height: 31px;
+    color: rgb(49, 134, 22);
+    font-weight: 600;
+    font-size: 13px;
+    background-color: rgb(247, 255, 249);
+    border-radius: 10px;
+}
+
+
+footer>div{
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-r-3{`
-    width: 85vw;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    color: rgb(102, 102, 102);
-    font-family: OKRA-REGULAR;
-    line-height: 18px;
-    margin: auto;
+.heart{
+    color: red;
+    border: none;
+    padding: 5px;
 }
