@@ -23,7 +23,7 @@ nav{
 }
 .nav-search>input{
     border: none;
-    width: 90%;
+    width: 85%;
     height: 100%;
     background-color: transparent;
     margin-left: 5px;
@@ -126,4 +126,19 @@ footer>div{
     color: red;
     border: none;
     padding: 5px;
+}
+@media screen and (max-width: 768px) {
+    #my_nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    #vertical_line{
+        display: none;
+    }
+    #search_div{
+        width: 90%;
+    }
+    #search_div>input{
+        width: auto;
+    }
 }
