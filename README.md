@@ -1,4 +1,4 @@
-# Blinkit Clone
+# blinkit website Clone
 
 
 ## Deploy link : - https://vickyvivek557.github.io/Blinkit/
