@@ -1,9 +1,10 @@
 # Blinkit Clone
 
 
-Deploy link : - https://vickyvivek557.github.io/Blinkit/
+## Deploy link : - https://vickyvivek557.github.io/Blinkit/
+
+
+### Website Images 👇👇
 
 
 
-
-![Uploading Screenshot (52).png…]()
